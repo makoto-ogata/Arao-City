@@ -3,7 +3,12 @@ require "araocity/version"
 module Araocity
   # Your code goes here...
   def message
-    'Welcome Arao City!!'
+    'Welcome to  Arao City!!'
   end
-  module_function :message
+
+  def specialty
+    "Pear"
+  end
+
+  module_function :message,:specialty
 end
