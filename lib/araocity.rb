@@ -7,7 +7,11 @@ module Araocity
   end
 
   def specialty
-    "Pear"
+    "Asian Pear"
+  end
+
+  def world_heritage_site
+    "Manda Pit"
   end
 
   module_function :message,:specialty
