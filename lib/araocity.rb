@@ -10,9 +10,9 @@ module Araocity
     "Asian Pear"
   end
 
-  def world_heritage_site
+  def WorldHeritageSite
     "Manda Pit"
   end
 
-  module_function :message,:specialty
+  module_function :message,:specialty,:WorldHeritageSite
 end
