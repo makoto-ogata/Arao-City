@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```bash
+$pry
+[1] pry(main)> require 'Araocity'
+=> true
+[2] pry(main)> Araocity.message
+=> "Welcome to  Arao City!!"
+```
 
 ## Development
 
